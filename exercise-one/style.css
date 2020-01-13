@@ -66,6 +66,7 @@ body
 .header
 {
     padding: 20px;
+    padding-bottom: 10px;
 }
 
 .header .title
@@ -91,4 +92,50 @@ nav a:hover
 {
     color: #333333;
     background-color: #eaeaea;
+}
+
+.hero
+{
+    height: 300px;
+    background: url("https://source.unsplash.com/random/800x600");
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    border-top: 5px solid salmon;
+    border-bottom: 5px solid lightskyblue;
+}
+
+.content
+{
+    padding: 20px;
+}
+
+.writer
+{
+    margin-bottom: 20px;
+}
+
+.writer a
+{
+    text-decoration: none;
+    color: salmon;
+}
+
+.text-content
+{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.footer
+{
+    background-color: #333333;
+    padding: 5px 0;
+}
+
+.footer .copy
+{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
 }
