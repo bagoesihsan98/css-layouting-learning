@@ -19,12 +19,14 @@
     float: left;
 }
 
-.right
+.container::before,
+.container::after
 {
-    float: right;
+    content: "";
+    display: block;
 }
 
-.clear
+.container::after
 {
     clear: both;
 }
