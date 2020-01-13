@@ -49,3 +49,46 @@ table {
 
 /* My Css */
 
+body
+{
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    color: #333333;
+}
+
+.container
+{
+    width: 800px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.header
+{
+    padding: 20px;
+}
+
+.header .title
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+nav
+{
+    margin-top: 20px;
+}
+
+nav a
+{
+    margin-right: 20px;
+    text-decoration: none;
+    color: salmon;
+    padding: 5px;
+}
+
+nav a:hover
+{
+    color: #333333;
+    background-color: #eaeaea;
+}
