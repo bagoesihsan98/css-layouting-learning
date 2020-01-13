@@ -14,16 +14,17 @@
 .satu
 {
     background-color: salmon;
-    float: right;
+    float: left;
 }
 
 .dua
 {
     background-color: lightskyblue;
-    float: right;
+    float: left;
 }
 
 .tiga
 {
     background-color: lightgreen;
+    float: right;
 }
