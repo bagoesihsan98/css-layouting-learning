@@ -1,69 +1,20 @@
 .container
 {
     margin: auto;
-    width: 800px;
+    width: 1224px;
     border: 1px solid black;
     padding: 5px;
-    /* box-sizing: border-box; */
 }
 
-.box
+.col
 {
-    width: 200px;
+    width: 100px;
     height: 200px;
-}
-
-.satu
-{
+    height: auto;
     background-color: salmon;
-    float: left;
-}
-
-.dua
-{
-    background-color: lightskyblue;
-    float: left;
-}
-
-.tiga
-{
-    background-color: lightgreen;
-    float: right;
-}
-
-.color-box
-{
-    width: 80px;
-    height: 80px;
-    background-color: salmon;
-    color: white;
     text-align: center;
-    line-height: 80px;
-    font-size: 30px;
-    margin: 2px;
-    float: left;
-}
-
-.kiri
-{
-    width: 250px;
-    height: 500px;
-    background-color: salmon;
-    float: left;
-}
-
-.tengah
-{
-    width: 500px;
-    height: 500px;
-    background-color: lightskyblue;
-    float: left;
-}
-
-.kanan
-{
-    width: 50px;
-    height: 500px;
-    background-color: limegreen;
+    line-height: 200px;
+    margin: 1px;
+    color: white;
     float: left;
 }
