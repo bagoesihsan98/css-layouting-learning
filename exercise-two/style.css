@@ -3,6 +3,7 @@
     margin: auto;
     width: 600px;
     border: 1px solid black;
+    padding: 5px;
 }
 
 .box
@@ -27,4 +28,17 @@
 {
     background-color: lightgreen;
     float: right;
+}
+
+.color-box
+{
+    width: 80px;
+    height: 80px;
+    background-color: salmon;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+    margin: 2px;
+    float: left;
 }
