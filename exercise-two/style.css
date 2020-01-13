@@ -4,7 +4,6 @@
     width: 1224px;
     border: 1px solid black;
     padding: 5px;
-    overflow: auto;
 }
 
 .col
@@ -18,4 +17,14 @@
     margin: 1px;
     color: white;
     float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+.clear
+{
+    clear: both;
 }
