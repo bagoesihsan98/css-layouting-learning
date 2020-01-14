@@ -59,7 +59,7 @@ body
 
 .container
 {
-    width: 960px;
+    width: 1020px;
     background-color: #ffffff;
     margin: auto;
 }
@@ -98,7 +98,7 @@ body
 
 .hero
 {
-    height: 320px;
+    height: 340px;
     background: url(https://source.unsplash.com/random/800x600);
     background-size: cover;
     background-position: 0 0;
@@ -228,8 +228,7 @@ body
 .footer
 {
     background-color: #333333;
-    padding: 20px;
-    padding-bottom: 10px;
+    padding: 10px 5px;
 }
 
 .footer .footer-text
