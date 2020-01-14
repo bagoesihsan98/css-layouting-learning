@@ -154,3 +154,16 @@ body
     text-align: justify;
     margin-bottom: 20px;
 }
+
+.footer
+{
+    background-color: #333333;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.footer .footer-text
+{
+    text-align: center;
+    color: #ffffff;
+}
