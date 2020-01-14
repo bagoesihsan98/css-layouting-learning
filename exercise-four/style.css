@@ -109,5 +109,48 @@ body
 
 .main-content
 {
-    
+    padding: 20px;
+}
+
+.main-content::before,
+.main-content::after
+{
+    content: "";
+    display: block;
+}
+
+.main-content::after
+{
+    clear: both;
+}
+
+.content
+{
+    width: 600px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.content .content-title
+{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.content .content-info
+{
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.content .content-info .writer
+{
+    text-decoration: none;
+    color: salmon;
+}
+
+.content p
+{
+    text-align: justify;
+    margin-bottom: 20px;
 }
