@@ -61,7 +61,21 @@ body
 {
     width: 1020px;
     background-color: #ffffff;
-    margin: auto;
+    margin: 80px auto;
+    position: relative;
+}
+
+.twitter
+{
+    width: 256px;
+    height: 256px;
+    background-image: url(twitter.png);
+    background-repeat: none;
+    display: inline-block;
+    text-indent: -999999px;
+    position: absolute;
+    top: -30px;
+    right: -35px;
 }
 
 .header
