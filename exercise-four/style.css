@@ -57,3 +57,12 @@ body
     color: #030303;
 }
 
+.container
+{
+    width: 960px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+
+
