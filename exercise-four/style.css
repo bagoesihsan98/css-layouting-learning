@@ -168,11 +168,16 @@ body
     box-sizing: border-box;
 }
 
+.sidebar .writer-info
+{
+    margin-bottom: 20px;
+}
+
 .sidebar .writer-info .writer-info-title
 {
     font-weight: bold;
     font-size: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .sidebar .writer-info .writer-profile-pic
@@ -204,7 +209,7 @@ body
 {
     font-weight: bold;
     font-size: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .sidebar .reference-article .article-info .article-info-title
@@ -223,6 +228,17 @@ body
     font-weight: lighter;
     font-size: 14px;
     text-align: justify;
+}
+
+.sidebar .reference-article .article-info .read-more
+{
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+.sidebar .reference-article .article-info .read-more:hover
+{
+    text-decoration: underline;
 }
 
 .footer
